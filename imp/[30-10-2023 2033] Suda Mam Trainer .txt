@@ -1,0 +1,192 @@
+[30-10-2023 20:33] Suda Mam Trainer: https://chat.whatsapp.com/Ce3k2NPaf601CB7whgWwui
+[30-10-2023 20:33] Suda Mam Trainer: Join group
+[09-11-2023 15:19] : public int countOperations(int num1, int num2) {
+        int count =0;
+        while(num1>0 && num2>0){
+            if(num1>=num2){
+                num1=num1-num2;
+                count++;
+            }
+            else{
+                num2=num2-num1;
+                count++;
+            }
+        }return count;
+    }
+[14-11-2023 15:03] Suda Mam Trainer: https://leetcode.com/problems/convert-the-temperature/
+[14-11-2023 15:09] Suda Mam Trainer: https://leetcode.com/problems/smallest-index-with-equal-value/
+[14-11-2023 15:21] Suda Mam Trainer: https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/
+[14-11-2023 15:23] Suda Mam Trainer: https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/
+[16-11-2023 10:49] Suda Mam Trainer: https://leetcode.com/problems/sort-colors/
+[16-11-2023 10:49] Suda Mam Trainer: https://leetcode.com/problems/find-the-duplicate-number/
+[16-11-2023 10:49] Suda Mam Trainer: https://leetcode.com/problems/majority-element/
+[16-11-2023 10:49] Suda Mam Trainer: https://leetcode.com/problems/move-zeroes/
+[16-11-2023 11:05] Suda Mam Trainer: https://leetcode.com/problems/contains-duplicate/
+[16-11-2023 12:24] Suda Mam Trainer: https://leetcode.com/problems/array-partition/
+[16-11-2023 13:02] Hey_itsmanish: Done mam
+[16-11-2023 13:03] Suda Mam Trainer: send solution
+[16-11-2023 13:08] : public int arrayPairSum(int[] nums) {
+        Arrays.sort(nums);
+        int sum=0;
+        for(int i=0;i<nums.length;i+=2){
+            sum+=nums[i];
+        }return sum;
+    }
+
+
+
+Training9:57 AM
+public static void snake(int mat[][]){
+        for(int i=0; i<mat.length; i++){
+            if(i%2==0){
+                for(int j=0; j<mat[i].length; j++){
+                    System.out.print(mat[i][j]+" ");
+                }
+            }else{
+                for(int j=mat[i].length-1; j>=0; j--){
+                    System.out.print(mat[i][j]+" ");
+                }
+            }
+        }
+    }
+Training10:11 AM
+public static void print(int mat[][]){
+        for(int i=0; i<mat.length; i++){
+            for(int j=0; j<mat[i].length; j++){
+                if(i==j){
+                    System.out.println(mat[i][j]);
+                }
+            }
+        }
+        for(int i=0; i<mat.length; i++){
+            for(int j=0; j<mat[i].length; j++){
+                if(i==mat.length-j-1){
+                    System.out.println(mat[i][j]);
+                }
+            }
+        }
+    }
+Training10:21 AM
+LCMat_64 solution
+public static void sum(int mat[][]){
+        int sum=0, sum1=0;
+        for(int i=0; i<mat.length; i++){
+            for(int j=0; j<mat[i].length; j++){
+                if(j>i){
+                    sum+=mat[i][j];
+                }
+            }
+        }
+        System.out.print(sum+" ");
+        for(int i=0; i<mat.length; i++){
+            for(int j=0; j<mat[i].length; j++){
+                if(j<i){
+                    sum1+=mat[i][j];
+                }
+            }
+        }
+        System.o
+System.out.print(sum1+" ");
+Training10:38 AM
+LCMAT_66 solution
+public static void solve(int arr[][]){
+        if(arr.length!=arr[0].length){
+            System.out.println("Not Square Matrix");
+            return;
+        }
+        for(int i=0;i<arr.length;i++){
+            for(int j=i+1;j<arr[0].length;j++){
+                if(arr[i][j]!=arr[j][i]){
+                    System.out.println("Not Symmetric");
+                    return;
+                }
+            }
+        }
+        System.out.println("Symmetric");
+    }
+or
+static void print(int[][] arr, int n, int m){
+        if(m != n){
+            System.out.println("Not Square Matrix");
+            return;
+        }
+        for(int i = 0; i < n; i++){
+            for(int j = 0; j < m; j++){
+                if(arr[i][j] != arr[j][i]){
+                    System.out.println("Not Symmetric");
+                    return;
+                }
+            }
+        }
+        System.out.println("Symmetric");
+        return;
+    }
+Training12:22 PM
+public static void solve(int arr[][]){
+        int count=0;
+        for(int i=0;i<arr.length;i++){
+            for(int j=0;j<arr[i].length;j++){
+                if(arr[i][j]!=arr[j][i]){
+                    count++;
+                }
+            }
+        }
+        System.out.println(count/2);
+    }
+
+
+
+
+user defined class - Student
+object - created using new keyword
+object is created of type class Student
+every object has heterogeneous values
+these values are initialized using constructor
+parameterized constructor to intialize the values
+paramters n the constructor are local variable
+object variable are instance variable
+object is also called instance
+this is a keyword refers the current instance varible
+this differentiates the instance variable and the local variable
+new allocates memory for o
+bject in the heap
+
+
+
+
+
+
+Training11:22 AM
+https://www.hackerearth.com/practice/basic-programming/implementation/basics-of-implementation/practice-problems/algorithm/special-sum-3/
+https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/find-factorial/
+https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/count-divisors/
+https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/palindrome-check-2/
+https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/life-the-universe-and-everything/
+https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/find-product/
+https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/modify-the-string/
+
+https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/roy-and-profile-picture/
+
+
+Project Title - Developed Personal Portfolio Website
+Technologies used - HTML, CSS, JavaScript
+Duration - October 2023 to Decmber 2023
+Training6:41 PM
+,Bangalore
+during 2023
+Training6:42 PM
+Participated in Cricket Tournament organized by CIT, Bangalore during 2023
+
+
+https://www.geeksforgeeks.org/sieve-of-eratosthenes/
+
+1. It uses doubly linked list data structure to store objects
+2. contains duplicate elements
+3. maintians insertion order
+4. It is a class which extends AbstractSequentialList class and implements 
+the List, Deque and Queue interfaces
+5. Not synchronized
+6. Fast bcoz it does not work on index basis that is all the bits are not shifted 
+in memory
+
+https://www.codingninjas.com/studio/problems/meta-strings_1089556?leftPanelTabValue=PROBLEM

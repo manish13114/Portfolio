@@ -1,0 +1,46 @@
+https://leetcode.com/problems/missing-number/description/
+https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/description/
+https://leetcode.com/problems/running-sum-of-1d-array/description/
+https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/description/
+https://leetcode.com/problems/find-numbers-with-even-number-of-digits/submissions/
+https://leetcode.com/problems/sign-of-the-product-of-an-array/submissions/
+https://leetcode.com/problems/convert-the-temperature/submissions/
+https://leetcode.com/problems/smallest-index-with-equal-value/submissions/
+https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/submissions/
+https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/description/
+https://leetcode.com/problems/water-bottles/description/
+
+
+
+
+Training9:54 AM
+https://leetcode.com/problems/three-consecutive-odds/
+https://leetcode.com/problems/xor-operation-in-an-array/
+https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/
+https://leetcode.com/problems/remove-element/
+https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/
+Training9:55 AM
+https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/
+https://leetcode.com/problems/find-peak-element/
+
+
+
+
+
+https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/
+https://leetcode.com/problems/keep-multiplying-found-values-by-two/
+
+
+
+Training10:15 AM
+https://leetcode.com/problems/maximum-gap/description/
+https://leetcode.com/problems/minimum-moves-to-equal-array-elements/
+https://leetcode.com/problems/plus-one/
+
+raining10:25 AM
+https://leetcode.com/problems/sort-colors/
+https://leetcode.com/problems/majority-element/
+https://leetcode.com/problems/find-the-duplicate-number/
+https://leetcode.com/problems/contains-duplicate/
+https://leetcode.com/problems/array-partition/

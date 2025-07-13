@@ -17,14 +17,15 @@
     
     <header id="header">
         <nav>
-            <div class="left">Manish's Portfolio</div>
+            <div class="left"><b>Manish</b></div>
             <div class="right">
                 <ul>
-                    <li><a href="#header">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#services">Skills</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#header"><b>Home</b></a></li>
+                    <li><a href="#about"><b>About</b></a></li>
+                    <li><a href="#education"><b>Education</b></a></li>
+                    <li><a href="#services"><b>Skills</b></a></li>
+                    <li><a href="#coding"><b>Coding</b></a></li>
+                    <li><a href="#contact"><b>Contact</b></a></li>
                 </ul>
             </div>
         </nav>
@@ -33,16 +34,16 @@
     <main>
         <section class="firstsection">
             <div class="leftsection">
-                Hi, My Name is <span class="purple">Manish</span>
-                <div>and I am a Computer Science Engineering</div>
+                I'm <span class="purple"><h3>Manish</h3></span>
+                <!-- <div>Computer Science and Engineer</div> -->
                 <span id="element"></span>
                 <div class="buttons">
-                    <button class="btn"><a href="D:\@Training\MANISH.pdf" download="MANISH.pdf"></a>Resume</button>
-                    <button class="btn"><a href="https://github.com/manish1311">Visit Github</a></button>
+                    <button class="btn" id="showPdfBtn">Resume</button>
+                    <button class="btn"><a href="https://github.com/manish1311"><i class="fa-brands fa-github"></i></a></button>
                 </div>
             </div>
             <div class="rightsection">
-                        <img src="manish.png">
+                        <img src="manish.jpg">
             </div>
         </section>
         <hr>
@@ -57,9 +58,9 @@
                         <img src="manish1.jpg" alt="">
                     </div>
                     <div class="about-col-2">
-                        <h1 class="sub-title">About me</h1>
-                        <p>Hello there! I'm  <em><b>MANISH KUMAR</b></em>, a passionate and driven college student on a journey to explore the intersection of computer science. Currently enrolled at <em><b>Visvesvaraya Technological University</b></em>, I am committed to making the most of my academic experience while actively seeking opportunities to apply my knowledge in real-world scenarios.</p>
-                        <p>I am pursuing a degree in computer science and engineering because it fuels my curiosity and aligns with my career aspirations. My academic journey has been marked by a commitment to excellence and a thirst for knowledge.</p>
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Hello there! I'm  <em><b>MANISH KUMAR</b></em>, a passionate and driven college student on a journey to explore the intersection of computer science. Currently enrolled at <em><b>Visvesvaraya Technological University</b></em>, I am committed to making the most of my academic experience while actively seeking opportunities to apply my knowledge in real-world scenarios</p>
+                        <!-- <p>I am pursuing a degree in computer science and engineering because it fuels my curiosity and aligns with my career aspirations. My academic journey has been marked by a commitment to excellence and a thirst for knowledge.</p> -->
                     </div>
                 </div>
             </div>
@@ -69,40 +70,42 @@
         <!--projects-->
  <div id="portfolio">
     <div class="container">
-        <h1 class="sub-title">My Projects</h1>
+        <h1 class="sub-title">Projects</h1>
+        <br>
+<br>
         <div class="work-list">
             <div class="work">
-                <img src="random_password.png">
+                <img src="flight.jpg">
                 <div class="layer">
-                    <h3>Ramdom password Generator</h3>
-                    <p>A random password generator website creates strong, unique passwords by combining letters, numbers, and special characters. It ensures high security standards to protect your information and accounts from unauthorized access.</p>
-                    <a href="https://manish13114.github.io/password_generator/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                </div>
-            </div>
-            <div class="work">
-                <img src="tic-tac-toe.png">
-                <div class="layer">
-                    <h3>Ramdom password Generator</h3>
-                    <p>Tic Tac Toe is a two-player game where players take turns marking a 3x3 grid with "X" or "O". The goal is to align three symbols in a row, column, or diagonal. If the grid is filled without a winner, the game ends in a draw.</p>
-                    <a href="https://manish13114.github.io/TIC-TAC-TOE/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                </div>
-            </div>
-            <div class="work">
-                <img src="manish1.jpg">
-                <div class="layer">
-                    <h3>Ramdom password Generator</h3>
-                    <p>this website generates a random strong password that you can copy and use for further works</p>
+                    <h3>Flight Ticket Booking</h3>
+                    <p>Developed a flight booking app with user and admin modules. Key features include real-time flight search, booking management, and detailed flight information. The app integrates background images for an enhanced visual experience</p>
                    <!--<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>-->
                 </div>
             </div>
-            <!-- <div class="work">
-                <img src="manish1.jpg">
+            <div class="work">
+                <img src="event.jpg">
+                <div class="layer">
+                    <h3>Event Scheduler</h3>
+                    <p>Built an event scheduler with features for creating, scheduling, and managing events. Includes admin authentication and a calendar view for streamlined event organization</p>
+                    <!-- <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                </div>
+            </div>
+            <div class="work">
+                <img src="password.jpg">
                 <div class="layer">
                     <h3>Ramdom password Generator</h3>
-                    <p>this website generates a random strong password that you can copy and use for further works</p>
-                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <p>A random password generator website creates strong, unique passwords by combining letters, numbers, and special characters. It ensures high security standards to protect your information and accounts from unauthorized access.</p>
+                    <a href="https://manish13114.github.io/PASSWORD_GENERATOR/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
-            </div> -->
+            </div>
+            <div class="work">
+                <img src="tic-tac-toe.jpg">
+                <div class="layer">
+                    <h3>Tic-Tac-Toe</h3>
+                    <p>Tic Tac Toe is a two-player game where players take turns marking a 3x3 grid with "X" or "O". The goal is to align three symbols in a row, column, or diagonal. If the grid is filled without a winner, the game ends in a draw.</p>
+                    <a href="https://manish13114.github.io/TIC_TAC_TOE/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
         </div>
         <!--<a href="#" class="btn1">See More</a>-->
     </div>
@@ -118,73 +121,47 @@
             </div>
             <div class="box1">
                 <div class="card">
-                    <i class="fa-solid fa-user"></i>
+                    <!-- <i class="fa-regular fa-user"></i> -->
+                    <img class="image-top" src="cit.WEBP">
+                    <h5>Cambridge Institute Of Technology(2022-2025)</h5>
+                    <div class="pra">
+                        <p>Cambridge Institute of Technology- North Campus is a private college of
+                            engineering and technology located in the northern part of the city of Bangalore</p>
+                        <p>
+                            <a class="button" href="https://www.cambridge.edu.in/">Read More</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <!-- <i class="fa-solid fa-user"></i> -->
+                    <img class="image-top" src="diploma.jpg">
+                    <h5>Government Polytecnic Darbhanga (2018-2021)</h5>
+                    <div class="pra">
+                        <p>Government Polytechnic, Darbhanga is a polytechnic institute in Bihar.The
+                            institute is affiliated with State Board of Technical Education, Bihar</p>
+                        <p>
+                            <a class="button" href="https://www.gpdarbhanga.org.in/">Read More</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <!-- <i class="fa-solid fa-user"></i> -->
                     <img class="image-top" src="jnv.jpg">
-                    <h5>JAWAHAR NAVODAYA VIDYALAYA (2016-18)</h5>
+                    <h5>JAWAHAR NAVODAYA VIDYALAYA (2016-2018)</h5>
                     <div class="pra">
                         <p>Jawahar Navodaya Vidyalaya (JNV) is a system of central schools for
                             talented students predominantly from rural areas in India</p>
                         <p>
-                            <a class="button" href="https://navodaya.gov.in/nvs/en/Home1">read more</a>
+                            <a class="button" href="https://navodaya.gov.in/nvs/en/Home1">Read More</a>
                         </p>
                     </div>
                 </div>
-                <div class="card">
-                    <i class="fa-solid fa-user"></i>
-                    <img class="image-top" src="diploma.jpg">
-                    <h5>Government Polytecnic Darbhanga (2018-21)</h5>
-                    <div class="pra">
-                        <p>Government Polytechnic, Darbhanga is a polytechnic institute in Bihar.The
-                            institute is affiliated with State Board of Technical Education, Bihar.</p>
-                        <p>
-                            <a class="button" href="https://www.gpdarbhanga.org.in/">read more</a>
-                        </p>
-                    </div>
-                </div>
-                <div class="card">
-                    <i class="fa-regular fa-user"></i>
-                    <img class="image-top" src="cit.WEBP">
-                    <h5>Cambridge Institute Of Technology(2022-...)</h5>
-                    <div class="pra">
-                        <p>Cambridge Institute of Technology- North Campus is a private college of
-                            engineering and technology located in the northern part of the city of Bangalore.</p>
-                        <p>
-                            <a class="button" href="https://www.cambridge.edu.in/">read more</a>
-                        </p>
-                    </div>
-                </div>
+               
+                
             </div>
         </div>
         
-        <!-- <section id="skill" class="secondsection">
-            <h1>Technical Skills</h1>
-            <div class="box">
-                <div class="vertical">
-                    <img class="image-top" src="c.png">
-                    <div class="vertical-title">C</div> -->
-                    <!-- <DIV class="vertical-desc">Jawahar Navodaya Vidyalaya (JNV) is a system of central schools for
-                        talented students predominantly from rural areas in India</DIV> -->
-                <!-- </div>
-                <div class="vertical">
-                    <img class="image-top" src="Java.png">
-                    <div class="vertical-title">JAVA</div> -->
-                    <!-- <DIV class="vertical-desc">Government Polytechnic, Darbhanga is a polytechnic institute in Bihar.The
-                        institute is affiliated with State Board of Technical Education, Bihar.</DIV> -->
-                <!-- </div>
-                <div class="vertical">
-                    <img class="image-top" src="html.png">
-                    <div class="vertical-title">HTML</div> -->
-                    <!-- <DIV class="vertical-desc">Cambridge Institute of Technology- North Campus is a private college of
-                        engineering and technology located in the northern part of the city of Bangalore.</DIV> -->
-                <!-- </div>
-                <div class="vertical">
-                    <img class="image-top" src="css.png">
-                    <div class="vertical-title">CSS</div> -->
-                    <!-- <DIV class="vertical-desc">Cambridge Institute of Technology- North Campus is a private college of
-                        engineering and technology located in the northern part of the city of Bangalore.</DIV> -->
-                <!-- </div>
-            </div>
-        </section> -->
+        
     </main>
 
    
@@ -192,17 +169,16 @@
 
     <div id="services">
         <div class="container1">
-            <h1 class="sub-title">My Skills</h1>
+            <h1 class="sub-title">Skills</h1>
             <div class="services-list">
-                <div>
+                <!-- <div>
                     <i class="fa-solid fa-code"></i>
                     <h2>c language</h2>
-                    <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa optio quibusdam cumque! Fugit corporis optio officia ab soluta. Perferendis, delectus numquam distinctio doloremque obcaecati deserunt odio velit a quisquam. Eveniet?</p> -->
-                    <!-- <a href="#">Learn more</a> -->
-                </div>
+                   
+                </div> -->
                 <div>
                     <i class="fa-brands fa-java"></i>
-                    <h2>java</h2>
+                    <h2>JAVA</h2>
                     <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa optio quibusdam cumque! Fugit corporis optio officia ab soluta. Perferendis, delectus numquam distinctio doloremque obcaecati deserunt odio velit a quisquam. Eveniet?</p> -->
                     <!-- <a href="#">Learn more</a> -->
                 </div>
@@ -213,121 +189,125 @@
                 </div> -->
                 <div>
                     <i class="fa-brands fa-html5"></i>
-                    <h2>html</h2>
+                    <h2>HTML</h2>
                     <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa optio quibusdam cumque! Fugit corporis optio officia ab soluta. Perferendis, delectus numquam distinctio doloremque obcaecati deserunt odio velit a quisquam. Eveniet?</p> -->
                     <!-- <a href="#">Learn more</a> -->
                 </div>
                 <div>
                     <i class="fa-brands fa-css3"></i>
-                    <h2>css</h2>
+                    <h2>CSS</h2>
                     <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa optio quibusdam cumque! Fugit corporis optio officia ab soluta. Perferendis, delectus numquam distinctio doloremque obcaecati deserunt odio velit a quisquam. Eveniet?</p> -->
                     <!-- <a href="#">Learn more</a> -->
                 </div>
                 <div>
                     <i class="fa-brands fa-square-js"></i>
-                    <h2>javascript</h2>
+                    <h2>JAVASCRIPT</h2>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+                
+            </div>
+            <div>
+                
+            </div>
+            <div class="services-list">
+                <!-- <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>c language</h2>
+                   
+                </div> -->
+                <div>
+                    <img src="data.jpg" alt="" class="abc">
+                    <h2>DSA</h2>
+                    <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa optio quibusdam cumque! Fugit corporis optio officia ab soluta. Perferendis, delectus numquam distinctio doloremque obcaecati deserunt odio velit a quisquam. Eveniet?</p> -->
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+                <!-- <div>
+                    <h2>Web design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa optio quibusdam cumque! Fugit corporis optio officia ab soluta. Perferendis, delectus numquam distinctio doloremque obcaecati deserunt odio velit a quisquam. Eveniet?</p>
+                    <a href="#">learn more</a>
+                </div> -->
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>MYSQL</h2>
+                    <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa optio quibusdam cumque! Fugit corporis optio officia ab soluta. Perferendis, delectus numquam distinctio doloremque obcaecati deserunt odio velit a quisquam. Eveniet?</p> -->
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+                <div>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <h2>BOOTSTRAP</h2>
+                    <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa optio quibusdam cumque! Fugit corporis optio officia ab soluta. Perferendis, delectus numquam distinctio doloremque obcaecati deserunt odio velit a quisquam. Eveniet?</p> -->
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+                <div>
+                    <img src="problem.jpg" alt="">
+                    <h2>PROBLEM SOLVING</h2>
                     <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa optio quibusdam cumque! Fugit corporis optio officia ab soluta. Perferendis, delectus numquam distinctio doloremque obcaecati deserunt odio velit a quisquam. Eveniet?</p> -->
                     <!-- <a href="#">Learn more</a> -->
                 </div>
             </div>
+            <div>
         </div>
     </div>
 
+<br>
+<br>
+<br>
+<br>
 
-
-    <!-- <hr> -->
-   
-
-
-
-    <!-- <h1 class="sub-title">My <span>Skills</span></h1> -->
-
-    <!-- <section>
-        <div class="container1" id="skills">
-            <h1 class="heading1">Professional Skills</h1>
-            <div class="technical-bars">
-                <div class="bar"><i class='bx bxl-html5' ></i>
-                    <div class="info">
-                        <span>creativity</span>
-                    </div>
-                    <div class="progress-line html">
-                        <span></span>
-                    </div>
-                </div>
-                <div class="bar">
-                    <div class="info">
-                        <span>communication</span>
-                    </div>
-                    <div class="progress-line css">
-                        <span></span>
-                    </div>
-                </div>
-                <div class="bar">
-                    <div class="info">
-                        <span>problem solving</span>
-                    </div>
-                    <div class="progress-line javascript">
-                        <span></span>
-                    </div>
-                </div>
-                <div class="bar"><i class='bx bxl-java' ></i>
-                    <div class="info">
-                        <span>Team work</span>
-                    </div>
-                    <div class="progress-line java">
-                        <span></span>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-
-        <!-- <div class="container1">
-            <h1 class="heading1">Professional skills</h1>
-            <div class="redial-bars">
-                <svg x="0px" y="0px" viewBox="0 0 200 200">
-                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
-                    <circle class="path path-1" cx="100" cy="100" r="80"></circle>
-                </svg>
-                <div class="percent">80%</div>
-                <div class="text">creativity</div>
-            </div>
-            <div class="redial-bars">
-                <svg x="0px" y="0px" viewBox="0 0 200 200">
-                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
-                    <circle class="path path-1" cx="100" cy="100" r="80"></circle>
-                </svg>
-                <div class="percent">90%</div>
-                <div class="text">communication</div>
-            </div>
-            <div class="redial-bars">
-                <svg x="0px" y="0px" viewBox="0 0 200 200">
-                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
-                    <circle class="path path-1" cx="100" cy="100" r="80"></circle>
-                </svg>
-                <div class="percent">90%</div>
-                <div class="text">problem solving</div>
-            </div>
-            <div class="redial-bars">
-                <svg x="0px" y="0px" viewBox="0 0 200 200">
-                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
-                    <circle class="path path-1" cx="100" cy="100" r="80"></circle>
-                </svg>
-                <div class="percent">70%</div>
-                <div class="text">Team work</div>
+<div id="coding">
+    <div id="education" class="title">
+        <h2>CODING</h2>
+    </div>
+    <div class="box1">
+        <div class="card">
+            <!-- <i class="fa-regular fa-user"></i> -->
+            <img class="image-top" src="leetcode.jpg">
+            <h5>Leetcode</h5>
+            <div class="pra">
+                <p>As a Computer Science student, I use LeetCode to sharpen my problem-solving skills through challenges in arrays, dynamic programming, and data structures</p>
+                <p>
+                    <a class="button" href="https://leetcode.com/u/manish222535/">View Profile</a>
+                </p>
             </div>
         </div>
+        <div class="card">
+            <!-- <i class="fa-solid fa-user"></i> -->
+            <img class="image-top" src="codechef.jpg">
+            <h5>Codechef</h5>
+            <div class="pra">
+                <p>I practice coding on CodeChef to enhance my problem-solving skills through diverse algorithmic challenges, improving my coding efficiency</p>
+                <p>
+                    <a class="button" href="https://www.codechef.com/users/manish222535">View Profile</a>
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <!-- <i class="fa-solid fa-user"></i> -->
+            <img class="image-top" src="gfg.jpg">
+            <h5>GeeksforGeeks</h5>
+            <div class="pra">
+                <p>I code on GeeksforGeeks to strengthen my programming skills, engaging with a variety of problems that deepen my understanding of algorithms and data structures</p>
+                <p>
+                    <a class="button" href="https://www.geeksforgeeks.org/user/manish2bigz/">View Profile</a>
+                </p>
+            </div>
+        </div>
+       
+        
+    </div>
+</div>
 
-    </section> -->
+    
 
 
     <!----------------- Contact ------------>
-    <hr>
+    <!-- <hr> -->
 
 <div id="contact">
     <div class="container1">
         <div class="row">
             <div class="contact-left">
-              <h1 class="sub-title">Contact Me</h1>
+              <h1 class="sub-title">Contact</h1>
               <p><i class="fa-solid fa-paper-plane"></i>manish22253@gmail.com</p>
               <p><i class="fa-solid fa-square-phone-flip"></i>7479753877</p>
               <div class="social-icons">
@@ -355,9 +335,9 @@
     <footer>
         <div class="footer">
             <div class="footer-first">
-                <h2>Manish Kumar</h2>
+                <p><i class="fa-solid fa-copyright"></i> Copyright Manish Kumar</p>
             </div>
-            <div class="footersecond">
+            <!-- <div class="footersecond">
                 <ul>
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -365,15 +345,15 @@
                     <li><a href="#">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
-            </div>
-            <div class="footer-third">
+            </div> -->
+            <!-- <div class="footer-third">
                 <div class="social-icons">
                     <a href="https://www.facebook.com/profile.php?id=100013535405225"><i class="fa-brands fa-facebook"></i></a>
                     <a href="https://instagram.com/hey_itsmanish?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
                     <a href="https://twitter.com/manish222535"><i class="fa-brands fa-twitter"></i></a>
                     <a href="https://www.linkedin.com/in/manish-kumar-770ab9257?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BBmA9XftyS9SQHV21KeDFRA%3D%3D"><i class="fa-brands fa-linkedin"></i></a>
                   </div>
-            </div>
+            </div> -->
             
         </div>
     </footer>
@@ -381,7 +361,7 @@
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
-            strings: ['Student'],
+            strings: ['Computer Science and Engineer'],
             typeSpeed: 70,
         });
     </script>
@@ -391,6 +371,17 @@
             </span>
      </a>
        
+     <iframe id="pdfViewer" src="" width="600" height="400" style="display:none;"></iframe>
+
+     <script>
+         
+         document.getElementById("showPdfBtn").addEventListener("click", function() {
+            
+             window.open('MANISH1.pdf', '_blank');
+ 
+         });
+     </script>
+ 
     
    
 </body>

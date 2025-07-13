@@ -1,4 +1,4 @@
-<script>
+{/* <script>
 document.getElementById('downloadBtn').addEventListener('click', function() {
     // Fetch the PDF file
     fetch('MANISH.pdf')
@@ -23,4 +23,4 @@ document.getElementById('downloadBtn').addEventListener('click', function() {
         })
         .catch(error => console.error('Error fetching the PDF:', error));
 });
-</script>
+</script> */}

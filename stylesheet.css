@@ -21,7 +21,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 80px;
-    background-color: rgb(3, 3, 57);
+    background-color: rgb(255, 255, 255);
 }
 
 nav ul {
@@ -36,7 +36,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: rgb(12, 12, 117);
     font-size: 25px;
 }
 
@@ -54,7 +54,8 @@ nav ul li a:hover {
 }
 
 .left {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+    color: rgb(12, 12, 117);
 }
 
 .firstsection {
@@ -71,6 +72,7 @@ nav ul li a:hover {
 
 .leftsection {
     font-size: 2.5rem;
+    width: 50%;
 }
 .leftsection .buttons{
     padding: 50px 0px;
@@ -92,6 +94,7 @@ nav ul li a:hover {
 
 .purple {
     color: rgb(175, 127, 219);
+    
 }
 
 #element {
@@ -138,8 +141,8 @@ font-size: 1.9rem;
     font-size: 9px;
 }
 footer{
-    background-color: rgb(4, 4, 29);
-    height: 233px;
+    background-color: rgb(5, 5, 35);
+    height: 100px;
     width: 100%;
 }
 .footer{
@@ -175,216 +178,28 @@ section{
     margin-bottom: 50px;
 
 }
-/* .bar{
-    font-size: 23px;
 
+#services img {
+    width:80px; 
+    height: auto; 
+    display: block; 
+    margin: 0px auto; 
 }
-.technical-bars .bar{
-    margin: 40px 0;
-
+#services img.abc{
+    width:50px; 
+    height: auto; 
+    display: block; 
+    margin: 0px auto; 
+    margin-bottom: 40px;
 }
-.technical-bars .bar:first-child{
-    margin-top: 0;
-}
-.technical-bars .bar:last-child{
-    margin-bottom: 0;
-}
-.technical-bars .bar .info{
-    margin-bottom: 5px;
-
-}
-.technical-bars .bar .info span{
-    font-size: 17px;
-    font-weight: 500;
-    animation: showText 0.5s 1s linear forwards;
-    opacity: 0;
-    
-}
-.technical-bars .bar .progress-line{
-    position: relative;
-    border-radius: 10px;
-    width: 100%;
-    height: 5px;
-    background-color: #040000;
-    animation: animate 1s cubic-bezier(1,0,0,5,1) forwards;
-    transform: scaleX(1);
-    transform-origin: left;
-}
-@keyframes animate{
-    100%{
-        transform: scaleX(1);
-    }
-}
-
- .technical-bars .bar .progress-line span{
- height: 100%;
- background-color: #0ef;
- position: absolute;
- border-radius: 10px;
- animation: animate 1s 1s cubic-bezier(1,0,0,5,1) forwards;
- transform: scaleX(0);
- transform-origin: left;
-}
- .progress-line .html span{
-width: 80%;
-}
-.progress-line .css span{
-width: 90%;
-}
-.progress-line .javascript span{
-    width: 90%;
-}
-.progress-line .java span{
-    width: 90%;
-}
-
-.progress-line span::after{
-    position: absolute;
-    padding: 1px 8px;
-    background-color: #000;
-    color: #fff;
-    font-size: 12px;
-    border-radius: 3px;
-    top: -28px;
-    right: -20px;
-    animation: showText 0.5s 1.5s linear forwards;
-    opacity: 0;
-}   
-.progress-line.html span::after{
-    content: "90%";
-}
-.progress-line.css span::after{
-    content: "80%";
-}
-.progress-line.javascript span::after{
-    content: "85%";
-}
-.progress-line.java span::after{
-    content: "90%";
-}
-
-.progress-line span::before{
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 0;
-    border: 7px solid transparent;
-    border-bottom-width: 0px;
-    border-right-width: 0px;
-    border-top-color: #000;
-    top: -10px;
-    right: 0px;
-    animation: showText 0.5s 1.5s linear forwards;
-    opacity: 0;
-}
-@keyframes showText{
-    100%{
-        opacity: 1;
-    }
-}
-.redial-bars{
-    width: 100%;
-    display: flex;
-   flex-wrap: wrap;
-   justify-content: space-evenly;
-   align-items: flex-start;
-}
-.redial-bars .radial-bars{
-    width: 50%;
-    height: 170px;
-    margin-bottom: 10px;
-    position: relative;
-}
-.redial-bars .redial-bars svg{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(-90deg);
-    width: 120px;
-    height: 160px;
-}
-.redial-bars .redial-bars .progress-bar{
-    stroke-width: 10;
-    stop-color: black;
-    fill: transparent;
-    stroke-dashoffset: 502;
-    stroke-dasharray: 502;
-    stroke-linecap: round;
-    animation: animate-bar 1s linear forwards;
-}
-@keyframes animate-bar{
-    100%{
-        stroke-dashoffset: -1;
-    }
-}
-.path{
-    stroke-width: 10;
-    stroke: #0ef;
-    fill: transparent;
-    stroke-dasharray: 502;
-    stroke-dashoffset: 502;
-    stroke-linecap: round;
-
-}
-.path-1{animation: animate-path1 1s 1s linear forwards;}
-.path-2{animation: animate-path1 1s 1s linear forwards;}
-.path-3{animation: animate-path1 1s 1s linear forwards;}
-.path-4{animation: animate-path1 1s 1s linear forwards;}
-
-@keyframes animate-path1{
-    100%{
-        stroke-dashoffset: 50;;
-    }
-}
-@keyframes animate-path2{
-    100%{
-        stroke-dashoffset: 170;;
-    }
-}
-@keyframes animate-path3{
-    100%{
-        stroke-dashoffset: 120;;
-    }
-}
-@keyframes animate-path4{
-    100%{
-        stroke-dashoffset: 70;;
-    }
-}
-.redial-bars .percent{
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 17px;
-    font-weight: 500;
-    animation: showText 0.5s 1s linear forwards;
-    opacity: 0;
-
-}
-.redial-bars .text{
-    width: 100%;
-    position: absolute;
-    text-align: center;
-    left: 50%;
-    bottom: -5px;
-    transform: translate(-50px);
-    font-size: 17px;
-    font-weight: 500;
-    animation: showtext 0.5s 1s linear forwards;
-    opacity: 0;
-} */
-
-
-
-
-
-
 
 .service{
     background:  rgb(0, 0, 33);
     width: 100%;
    
+}
+.services-list{
+    text-align: center;
 }
 .title h2{
     color: white;
@@ -474,6 +289,7 @@ h5{
 }
 .about-col-2 p{
     font-size: large;
+    text-align: justify;
 }
 .sub-title{
     font-size: 60px;
@@ -602,7 +418,7 @@ html{
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background-color: #dc143c;
+    background-color: #0e0951;
     border-radius: 0.5rem;
     padding: 0.5rem;
     text-decoration: none;
@@ -627,19 +443,22 @@ html{
 }
 .work-list{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 40px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    grid-template-columns: 1fr 1fr; 
+    row-gap: 40px;
+    column-gap: 0px;
+   justify-content: center;
+   align-items: ;
+   width:100%
 }
 .work{
     border-radius: 10px;
     position: relative;
     overflow: hidden;
     height: 250px;
-    width: 70%;
+    width: 90%;
+   
     margin-left: 100px;
-    margin-right: 200px;
+    margin-right: 100px;
 }
 .work img{
     width: 100%;
